@@ -1,0 +1,144 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Bowserinator's Github Page">
+        <meta name="author" content="Bowserinator">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Social meta -->
+        <meta property="og:title" content="Bowserinator's Website">
+        <meta property="og:description" content="My personal github page for random stuff.">
+        <meta property="og:image" content="img/thumbnail.jpg">
+
+        <title>Bowserinator's Website</title>
+
+        <!-- All pages -->
+        <!-- CSS -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,700" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+        <!-- Page specific -->
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+
+    <body>
+        <div id="top-part" class="section title-section">
+            <div class="title-image">
+                <a href="/index.html">
+                    <img src="img/logo.png" alt="Logo">
+                    <img src="img/logo.png" alt="Logo" class="img-back">
+                </a>
+            </div>
+
+            <p class="small-title title">HELLOMOUSE</p>
+            <p class="main-title title">Bowserinator</p>
+            <p class="caption-title title">HOBBYIST PROGRAMER</p>
+
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+
+            <div class="card-line">
+                <a href="https://github.com/Bowserinator"><img src="img/logos/github.png" alt="github" title="Github" class="card"></a>
+                <a href="https://www.youtube.com/channel/UCneFRe-GYie3SCKml2OYaPA"><img src="img/logos/yt.png" alt="youtube" title="Youtube" class="card"></a>
+                <img onclick="changeModal('discord')" src="img/logos/discord.png" alt="discord" title="Discord" class="card"></a>
+                <img onclick="changeModal('irc')" src="img/logos/irc.png" alt="discord" title="Discord" class="card"></a>
+
+                <br><br><br>
+                <p class="title desc">
+                    I mostly do javascript
+                    and python, and am <i>relatively</i>
+                    good at photoshop and graphic design. You can find me on IRC or Discord
+                    most of the time.
+
+                    <br><br>
+                    <span style="float: right; color: #white; font-size: 24px">- Bowserinator</span>
+                </p>
+            </div>
+        </div>
+
+        <ol class="stuff-container">
+            <li class="stuff-card incomplete" onclick="changeModal('incomplete')">
+                <img src="img/thumbnail.jpg">
+                <p class="inside-img">
+                    <b>Useful Stuff</b>
+                    <span class="label" style="background-color: lightgrey">Utility</span>
+                    <br>
+                    Collection of useful stuff
+                </p>
+            </li>
+
+            <li class="stuff-card">
+                <a href="https://www.youtube.com/watch?v=gU-qNFdMbVw&list=PLgJqAvJGXHwOASFh-N96xSVbUHSQzFZSU">
+                    <img src="img/thumb/gd.jpg">
+                    <p class="inside-img">
+                        <b>Geometry Dash Levels</b>
+                        <span class="label" style="background-color: lightgreen">Games</span>
+                        <br>
+                        Some of my GD levels
+                    </p>
+                </a>
+            </li>
+
+            <li class="stuff-card">
+                <a href="https://hellomouse.net/comics/">
+                    <img src="img/thumb/comic.jpg">
+                    <p class="inside-img">
+                        <b>Hellomouse Comics</b>
+                        <span class="label" style="background-color: gold">Fun</span>
+                        <br>
+                        Hellomouse comics series by me
+                    </p>
+                </a>
+            </li>
+
+
+            <li class="stuff-card incomplete" onclick="changeModal('incomplete')">
+                <img src="img/thumbnail.jpg">
+                <p class="inside-img">
+                    <b>Short stories</b>
+                    <span class="label" style="background-color: gold">Fun</span>
+                    <br>
+                    Some short stories by me
+                </p>
+            </li>
+
+            <li class="stuff-card incomplete" onclick="changeModal('incomplete')">
+                <img src="img/thumbnail.jpg">
+                <p class="inside-img">
+                    <b>Datasets</b>
+                    <span class="label" style="background-color: lightgrey">Utility</span>
+                    <br>
+                    Helpful datasets I found
+                </p>
+            </li>
+
+            <li class="stuff-card incomplete" onclick="changeModal('incomplete')">
+                <img src="img/thumbnail.jpg">
+                <p class="inside-img">
+                    <b>Random Art</b>
+                    <span class="label" style="background-color: lightgrey">Fun</span>
+                    <br>
+                    Random art I made
+                </p>
+            </li>
+
+            <li style="color: grey; font-size: 12px; z-index: -100; height: 80px;">
+                <br>
+                This website first came up  <span id="time1">[Unknown]</span> ago<br>
+                The original website first came up  <span id="time2">[Unknown]</span> ago<br><br>
+                Bowserinator © <span id="year">2018</span>
+                <br><br><br>
+            </li>
+        </ol>
+
+        <div class="modal" id="modal"></div>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    font-variant: small-caps;
+}
+
+button {
+    outline: none;
+    border: none;
+}
+button:hover {
+    cursor: pointer;
+}
+
+.modal {
+    width: 25%;
+    padding: 20px;
+    background-color: white;
+    z-index: 9999;
+
+    position: fixed;
+    top: 25%;
+    left: 37.5%;
+
+    display: none;
+    box-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.75);
+}
+
+.modal-x {
+    background: none;
+    float: right;
+    font-size: 30px;
+}
+
+.brighten-hover: {
+    filter: brightness(100%);
+    transition: filter 0.2s;
+}
+.brighten-hover:hover {
+    transition: filter 0.2s;
+    filter: brightness(110%);
+}
+.pointer:hover{ cursor: pointer; }
+
+@keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(359deg);}
+}
+
+@keyframes fadeInLeft {
+   0% {
+      opacity: 0;
+      transform: translateX(-20px);
+   }
+   100% {
+      opacity: 1;
+      transform: translateX(0);
+   }
+}

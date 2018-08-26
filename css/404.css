@@ -1,0 +1,15 @@
+/* 404.html */
+body {
+    background-color: #111;
+    text-align: center;
+}
+
+.large-title {
+    color: white;
+    font-size: 200px;
+    margin-bottom: 30px;
+}
+
+.desc {
+    color: white;
+}

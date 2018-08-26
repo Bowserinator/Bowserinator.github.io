@@ -1,0 +1,2 @@
+Rotate a dark version of the logo behind the logo
+Fancy intro - text fades in from left, logo grows in
