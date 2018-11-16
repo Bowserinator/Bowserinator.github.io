@@ -129,13 +129,15 @@ body {
     float: left;
     margin-right: 9px;
     transition: 0.2s;
-    filter: saturate(0%);
+    display: block;
+    font-size: 45px;
+    color: #ffe794;
+    cursor: pointer;
     /*box-shadow: 7px 7px 0px 0px #555;*/
 }
 
 .card:hover {
-    filter: saturate(100%);
-    cursor: pointer;
+    color: #fff;
     transition: 0.2s;
 }
 
